@@ -5,13 +5,23 @@ import { ChakraProvider, extendTheme } from "@chakra-ui/react";
 
 const colors = {
   brand: {
-    900: "#1a365d",
-    800: "#153e75",
-    700: "#2a69ac",
+    900: "#1a365d", // existing blue
+    800: "#153e75", // existing blue
+    700: "#f8f8f8", // off-white background
+    600: "#333333", // very dark grey text
   },
 };
 
-const theme = extendTheme({ colors });
+const theme = extendTheme({
+  colors,
+  styles: {
+    global: {
+      body: {
+        fontFamily: "'Times New Roman', serif",
+      },
+    },
+  },
+});
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
