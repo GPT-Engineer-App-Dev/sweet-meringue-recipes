@@ -1,4 +1,4 @@
-import { Box, Text, Image, VStack, Button, SimpleGrid, Heading } from '@chakra-ui/react';
+import { Box, Text, Image, VStack, SimpleGrid, Heading, UnorderedList, ListItem } from '@chakra-ui/react';
 import { FaCookieBite } from 'react-icons/fa';
 
 const Index = () => {
@@ -9,9 +9,6 @@ const Index = () => {
       </Box>
       <Heading as="h1" size="2xl" fontWeight="bold">Welcome to Meringue Delights!</Heading>
       <Text fontSize="xl">Explore the best meringue recipes and tips to perfect your baking skills.</Text>
-      <Button rightIcon={<FaCookieBite />} colorScheme="pink" variant="solid" size="lg">
-        Discover Recipes
-      </Button>
       <SimpleGrid columns={2} spacing={10} pt={10}>
         <Box boxShadow="2xl" bg="off-white" width="100%">
           <Image src="/images/meringue2.jpg" alt="Assorted Meringue Cookies" width="100%" />
@@ -26,6 +23,15 @@ const Index = () => {
           </Text>
         </Box>
       </SimpleGrid>
+      <Box p={5} bg="off-white" boxShadow="lg" width="100%">
+        <Heading as="h2" size="xl" fontWeight="bold" mb={4}>Featured Recipes</Heading>
+        <Text fontSize="lg">Here are some of our favorite meringue recipes:</Text>
+        <UnorderedList mt={4} ml={10} spacing={3}>
+          <ListItem>Classic French Meringue</ListItem>
+          <ListItem>Swiss Meringue Buttercream</ListItem>
+          <ListItem>Italian Meringue Macarons</ListItem>
+        </UnorderedList>
+      </Box>
     </VStack>
   );
 };
