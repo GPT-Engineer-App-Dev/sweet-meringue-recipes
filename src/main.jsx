@@ -18,6 +18,8 @@ const theme = extendTheme({
     global: {
       body: {
         fontFamily: "'Playfair Display', serif",
+        backgroundColor: "#f8f8f8",
+        color: "#333333"
       },
     },
   },
