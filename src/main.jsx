@@ -17,7 +17,7 @@ const theme = extendTheme({
   styles: {
     global: {
       body: {
-        fontFamily: "'Comic Sans MS', cursive, sans-serif",
+        fontFamily: "'EB Garamond', serif",
         backgroundColor: "#f8f8f8",
         color: "#333333"
       },
