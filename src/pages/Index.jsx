@@ -5,19 +5,19 @@ const Index = () => {
   return (
     <VStack spacing={8} align="center" justify="center" minH="100vh" bg="off-white" color="brand.600">
       <Box bg="off-white" color="brand.600" width="100%">
-        <Image src="/images/meringue1.jpg" alt="Elegant Meringue Dish" width="95%" />
+        <Image src="/images/new-meringue1.jpg" alt="Elegant Meringue Dish" width="95%" />
       </Box>
       <Heading as="h1" size="2xl" fontWeight="bold">Meringue</Heading>
       <Text fontSize="xl">Explore the best meringue recipes and tips to perfect your baking skills.</Text>
       <SimpleGrid columns={2} spacing={10} pt={10}>
         <Box bg="off-white" width="100%">
-          <Image src="/images/meringue2.jpg" alt="Assorted Meringue Cookies" width="95%" />
+          <Image src="/images/new-meringue2.jpg" alt="Assorted Meringue Cookies" width="95%" />
           <Text mt={2} fontSize="lg" fontWeight="semibold" lineHeight="short">
             Learn to make perfect meringue cookies with our detailed guide.
           </Text>
         </Box>
         <Box bg="off-white" width="100%">
-          <Image src="/images/meringue1.jpg" alt="Elegant Meringue Dish" width="95%" />
+          <Image src="/images/new-meringue1.jpg" alt="Elegant Meringue Dish" width="95%" />
           <Text mt={2} fontSize="lg" fontWeight="semibold" lineHeight="short">
             Explore the art of creating sophisticated meringue dishes.
           </Text>
