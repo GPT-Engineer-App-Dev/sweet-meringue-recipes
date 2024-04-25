@@ -17,7 +17,7 @@ const theme = extendTheme({
   styles: {
     global: {
       body: {
-        fontFamily: "'Times New Roman', serif",
+        fontFamily: "'Playfair Display', serif",
       },
     },
   },
